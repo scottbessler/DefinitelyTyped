@@ -84,13 +84,13 @@ export interface TableProps extends
     freezeWhenExpanded: boolean;
 
     /** Default: [] */
-    defaultSorting: SortingRule[];
+    defaultSorted: SortingRule[];
 
     /** Default: false */
     showFilters: boolean;
 
     /** Default: [] */
-    defaultFiltering: any[];
+    defaultFiltered: any[];
 
     /** Default: ... */
     defaultFilterMethod: FilterFunction;
